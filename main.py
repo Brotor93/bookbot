@@ -1,4 +1,4 @@
-def get_book_text(filepath):
+def get_book_text(books/frankenstein.txt):
     """Reads the contents of a file and returns it as a string."""
     try:
         with open(filepath, 'r', encoding='utf-8') as file:
@@ -8,7 +8,7 @@ def get_book_text(filepath):
 
 def main():
     """Main function to read and print the contents of frankenstein.txt."""
-    filepath = "frankenstein.txt"  # Adjust the path if needed
+    filepath = "books/frankenstein.txt"  # Adjust the path if needed
     book_text = get_book_text(filepath)
     print(book_text)
 
