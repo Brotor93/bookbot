@@ -1,4 +1,4 @@
-def get_book_text(books/frankenstein.txt):
+def get_book_text(filepath):
     """Reads the contents of a file and returns it as a string."""
     try:
         with open(filepath, 'r', encoding='utf-8') as file:
